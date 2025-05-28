@@ -31,7 +31,7 @@ public class Nested_Frame {
 	    driver.findElement(By.xpath("//a[text()='Single Iframe ']")).click();
 		
 		// switch from child to parent
-		driver.switchTo().parentFrame();                        //Swiching back directly from Child to parent
+		driver.switchTo().parentFrame();                        //Switching back directly from Child to parent
 		
 		String text = driver.findElement(By.xpath("//h5[text()='Nested iFrames']")).getText();
 		System.out.println(text);

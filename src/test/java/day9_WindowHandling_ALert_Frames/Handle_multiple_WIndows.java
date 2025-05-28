@@ -34,7 +34,7 @@ public class Handle_multiple_WIndows {
 		
 		driver.switchTo().window(windows.get(2));
 		
-		// get the title to  validate the switch
+		// get the title to validate the switch
 		
 		String title = driver.getTitle();
 		System.out.println(title);
